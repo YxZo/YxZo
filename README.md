@@ -5,7 +5,7 @@
 - 🔍 Passionné par la technologie, le développement logiciel et spécialement le développement backend.
 
 ## 🛠 Compétences
-- **Langages :** Java, C#, JavaScript, HTML, CSS, Kotlin, C
+- **Langages :** Java, C#, JavaScript, HTML, CSS, Kotlin, C, rust
 - **Frameworks et bibliothèques :** React, Flutter, ASP.NET
 - **Outils et technologies :** Git, GitHub, Méthodologies agiles
 
