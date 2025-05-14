@@ -16,6 +16,15 @@
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
+</picture>
+
+
+---
+
 ## 👾 Who am I?
 
 - 🧑‍💻 **Code Alchemist**: Transforming caffeine into scalable infrastructure & robust backend.
@@ -71,11 +80,4 @@ I specialize in building robust, scalable, and modern web applications with <b>C
 - <a href="mailto:valentin.lopez1109@gmail.com">Email</a>
 
 ---
-
-<!-- GitHub contribution snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
-</picture>
 
