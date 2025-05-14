@@ -60,7 +60,7 @@ I specialize in building robust, scalable, and modern web applications with <b>C
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ValentinLopez&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YxZo&theme=transparent" alt="GitHub Streak" />
 </p>
 
 ---
@@ -73,5 +73,5 @@ I specialize in building robust, scalable, and modern web applications with <b>C
 ---
 
 <!-- Snake animation for contribution grid -->
-![Snake animation](https://github.com/ValentinLopez/ValentinLopez/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/YxZo/YxZo/blob/output/github-contribution-grid-snake.svg)
 
