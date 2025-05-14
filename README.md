@@ -8,7 +8,7 @@
 
 <!-- Animated/interactive badges for visitor count, GitHub stats, etc. -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ValentinLopez&style=flat-square&color=36BCF7" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=YxZo&style=flat-square&color=36BCF7" alt="profile views"/>
   <img src="https://img.shields.io/badge/DevOps-%F0%9F%9A%80-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Backend-%E2%9C%94%EF%B8%8F-success?style=flat-square"/>
   <img src="https://img.shields.io/badge/Frontend-%E2%9C%A8-informational?style=flat-square"/>
