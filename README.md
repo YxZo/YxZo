@@ -72,6 +72,10 @@ I specialize in building robust, scalable, and modern web applications with <b>C
 
 ---
 
-<!-- Snake animation for contribution grid -->
-![Snake animation](https://github.com/YxZo/YxZo/blob/output/github-contribution-grid-snake.svg)
+<!-- GitHub contribution snake animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/YxZo/YxZo/blob/output/github-snake.svg" />
+</picture>
 
