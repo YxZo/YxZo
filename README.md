@@ -1,7 +1,7 @@
 <!-- Banner animation: Use an SVG or GIF here, e.g. a DevOps pipeline, code flowing, or a terminal animation. You can generate a custom SVG with tools like https://svgartista.net/ or use shields.io for dynamic badges. -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Valentin!;DevOps+%7C+Backend+Frontend;Making+Infra+Dance+with+Code+%F0%9F%9A%80" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Valentin!;DevOps+%7C+Backend+%7C+Frontend;Making+Infra+Dance+with+Code+%F0%9F%9A%80" alt="Typing SVG">
 </p>
 
 ---
