@@ -15,6 +15,10 @@ defaults:
   run:
     shell: bash -euxo pipefail {0}
 
+env:
+  ZIG_GLOBAL_CACHE_DIR: /tmp/zig-cache
+  ZIG_LOCAL_CACHE_DIR: /tmp/zig-cache
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +29,7 @@ jobs:
         with:
           version: 0.15.2
 
-      - name: Build
+      - name: Build github-stats binary
         run: |
           git clone --depth 1 https://github.com/jstrieb/github-stats.git /tmp/github-stats
           cd /tmp/github-stats
@@ -42,24 +46,18 @@ jobs:
           stale=$(gh api --paginate '/user/repos?affiliation=owner,collaborator,organization_member&per_page=100' \
             --jq ".[] | select(.pushed_at < \"$cutoff\") | .full_name" \
             | paste -sd, -)
-          echo "Stale repos to exclude: $stale"
+          echo "Stale repos: $stale"
           if [ -n "$MANUAL_EXCLUDES" ] && [ -n "$stale" ]; then
             combined="$MANUAL_EXCLUDES,$stale"
           else
             combined="${MANUAL_EXCLUDES}${stale}"
           fi
-          echo "Combined exclude list: $combined"
           echo "exclude_repos=$combined" >> "$GITHUB_OUTPUT"
 
-      - name: Checkout generated branch
+      - name: Generate SVGs
         run: |
-          git config --global user.name "github-stats-bot"
-          git config --global user.email "github-stats[bot]@users.noreply.github.com"
-          git fetch origin generated:generated || true
-          git checkout generated || git checkout -b generated
-
-      - name: Generate images
-        run: |
+          mkdir -p /tmp/svg-output
+          cd /tmp/svg-output
           /tmp/github-stats/zig-out/bin/github-stats
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -69,20 +67,30 @@ jobs:
           DEBUG: "false"
           MAX_RETRIES: 5
 
-      - name: Apply tokyonight palette to generated SVGs (dark-mode styling)
+      - name: Apply tokyonight palette to generated SVGs
         run: |
           for f in overview.svg languages.svg; do
-            [ -f "$f" ] || continue
+            [ -f "/tmp/svg-output/$f" ] || continue
             sed -i \
               -e 's/#0d1117/#1a1b27/g' \
               -e 's/#58a6ff/#7aa2f7/g' \
               -e 's/#c9d1d9/#a9b1d6/g' \
               -e 's/#8b949e/#565f89/g' \
-              "$f"
+              "/tmp/svg-output/$f"
           done
 
-      - name: Commit to the generated branch
+      - name: Force-push SVGs to generated branch (orphan)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add .
-          git commit -m 'chore: update generated stats images' || true
-          git push --set-upstream origin generated
+          mkdir -p /tmp/gen-branch
+          cd /tmp/gen-branch
+          git init -q -b generated
+          git config user.name "github-stats-bot"
+          git config user.email "github-stats[bot]@users.noreply.github.com"
+          cp /tmp/svg-output/overview.svg .
+          cp /tmp/svg-output/languages.svg .
+          git add overview.svg languages.svg
+          git commit -q -m 'chore: update generated stats images'
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          git push -f origin generated
