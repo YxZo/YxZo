@@ -119,36 +119,11 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 
 ---
 
-## 📊 By the Numbers — Last 2 Years
+## 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg">
-    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview" />
-    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg#gh-light-mode-only" alt="GitHub Overview" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg">
-    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-dark-mode-only" alt="Most Used Languages" />
-    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-light-mode-only" alt="Most Used Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=YxZo&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YxZo&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
-</p>
-
----
-
-## 🏆 Trophy Wall
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YxZo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />
+  <img height="180" src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-dark-mode-only" alt="Most Used Languages (last 2 years, incl. private)" />
 </p>
 
 ---
