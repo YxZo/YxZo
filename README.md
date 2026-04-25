@@ -123,7 +123,7 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YxZo&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="YxZo's Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YxZo&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&exclude_repo=B2MATH-2223S1-LopezlopezValentin,CSCBE-2023-WRITE-UPS&hide=Dockerfile,Shell" alt="YxZo's Top Languages" />
 </p>
 
 <p align="center">
