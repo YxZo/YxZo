@@ -69,6 +69,18 @@ jobs:
           DEBUG: "false"
           MAX_RETRIES: 5
 
+      - name: Apply tokyonight palette to generated SVGs (dark-mode styling)
+        run: |
+          for f in overview.svg languages.svg; do
+            [ -f "$f" ] || continue
+            sed -i \
+              -e 's/#0d1117/#1a1b27/g' \
+              -e 's/#58a6ff/#7aa2f7/g' \
+              -e 's/#c9d1d9/#a9b1d6/g' \
+              -e 's/#8b949e/#565f89/g' \
+              "$f"
+          done
+
       - name: Commit to the generated branch
         run: |
           git add .

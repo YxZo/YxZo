@@ -119,15 +119,20 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 
 ---
 
-## 📊 By the Numbers
+## 📊 By the Numbers — Last 2 Years
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg" alt="YxZo's GitHub Overview (incl. private contributions)" />
+  <a href="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg">
+    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview" />
+    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg#gh-light-mode-only" alt="GitHub Overview" />
+  </a>
 </p>
 
 <p align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />
-  <img height="195" src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg" alt="YxZo's Most Used Languages (incl. private contributions)" />
+  <a href="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg">
+    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-dark-mode-only" alt="Most Used Languages" />
+    <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-light-mode-only" alt="Most Used Languages" />
+  </a>
 </p>
 
 <p align="center">
