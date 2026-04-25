@@ -78,9 +78,12 @@ jobs:
             sed -i \
               -e 's/fill: white/fill: #1a1b27/g' \
               -e 's/stroke: rgb(225, 228, 232)/stroke: #2a2b3a/g' \
+              -e 's/background-color: rgb(225, 228, 232)/background-color: #2a2b3a/g' \
               -e 's/color: rgb(3, 102, 214)/color: #7aa2f7/g' \
               -e 's/color: rgb(88, 96, 105)/color: #a9b1d6/g' \
               -e 's/fill: rgb(88, 96, 105)/fill: #565f89/g' \
+              -e 's/color: rgb(36, 41, 46)/color: #c9d1d9/g' \
+              -e 's/fill: rgb(36, 41, 46)/fill: #c9d1d9/g' \
               "${f}-dark.svg"
           done
 
