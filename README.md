@@ -119,7 +119,11 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 
 ---
 
-## 📊 GitHub Stats
+## 📊 By the Numbers
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YxZo/YxZo/generated/overview.svg" alt="YxZo's GitHub Overview (incl. private contributions)" />
+</p>
 
 <p align="center">
   <img height="195" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />

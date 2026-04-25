@@ -31,6 +31,26 @@ jobs:
           cd /tmp/github-stats
           zig build --release
 
+      - name: Compute exclude list (repos not pushed in the last 2 years)
+        id: compute_excludes
+        env:
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          MANUAL_EXCLUDES: ${{ secrets.EXCLUDE_REPOS }}
+        run: |
+          cutoff=$(date -u -d '2 years ago' +%Y-%m-%dT%H:%M:%SZ)
+          echo "Cutoff date: $cutoff"
+          stale=$(gh api --paginate '/user/repos?affiliation=owner,collaborator,organization_member&per_page=100' \
+            --jq ".[] | select(.pushed_at < \"$cutoff\") | .full_name" \
+            | paste -sd, -)
+          echo "Stale repos to exclude: $stale"
+          if [ -n "$MANUAL_EXCLUDES" ] && [ -n "$stale" ]; then
+            combined="$MANUAL_EXCLUDES,$stale"
+          else
+            combined="${MANUAL_EXCLUDES}${stale}"
+          fi
+          echo "Combined exclude list: $combined"
+          echo "exclude_repos=$combined" >> "$GITHUB_OUTPUT"
+
       - name: Checkout generated branch
         run: |
           git config --global user.name "github-stats-bot"
@@ -43,7 +63,7 @@ jobs:
           /tmp/github-stats/zig-out/bin/github-stats
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+          EXCLUDE_REPOS: ${{ steps.compute_excludes.outputs.exclude_repos }}
           EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
           EXCLUDE_PRIVATE: "false"
           DEBUG: "false"
