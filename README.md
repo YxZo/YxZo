@@ -122,8 +122,16 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />
-  <img height="180" src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg#gh-dark-mode-only" alt="Most Used Languages (last 2 years, incl. private)" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=YxZo&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="YxZo's GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg" />
+    <img height="180" src="https://raw.githubusercontent.com/YxZo/YxZo/generated/languages.svg" alt="Most Used Languages (last 2 years, incl. private)" />
+  </picture>
 </p>
 
 ---
