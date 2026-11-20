@@ -57,15 +57,15 @@ Full-stack developer from Liège 🇧🇪 with a strong DevOps side. I build bac
 
 #### Built solo, end to end
 
-- 🏗️ **A full platform**: mobile app, public website, customer dashboard, partner dashboard, API and gateway, all shipping together as one product.
+- 🏗️ **A full platform**: mobile app, Android payment terminal app, public website, customer, partner and admin dashboards, API and gateway, all shipping together as one product.
 - 🧱 **Layered architecture**: Clean Architecture, CQRS and DDD, so new features land without fighting legacy code.
-- 🎼 **Event-driven**: RabbitMQ between services, so payments and partner integrations never block the user.
-- 💳 **Subscriptions end to end**: Stripe webhooks and sagas covering sign-up, renewal, upgrade and cancellation.
-- 🧪 **Tested and observed**: hundreds of automated tests, Grafana, Loki and Prometheus across every service.
-- 🚀 **Live in production**: containerized, behind Cloudflare, deployable in minutes.
+- 🎼 **Event-driven**: messaging between services, so payments and partner integrations never block the user.
+- 💳 **Payments end to end**: in-app, online and on-site terminal payments plus subscriptions, migrated from Stripe to Adyen without stopping the business.
+- 🧪 **Tested and observed**: thousands of automated tests (unit, architecture, integration, end-to-end) and full metrics, logs and uptime monitoring.
+- 🚀 **Live in production**: fully containerized and self-hosted, with CI/CD on my own runners.
 
 <p>
-  <img src="https://skillicons.dev/icons?i=dotnet,cs,nextjs,react,nuxtjs,vue,tailwind,postgres,rabbitmq,docker,cloudflare,grafana,githubactions&perline=13" alt="CarWashFlow Stack" />
+  <img src="https://skillicons.dev/icons?i=dotnet,cs,nuxtjs,vue,tailwind,react,kotlin,postgres,rabbitmq,docker,cloudflare,grafana,githubactions&perline=13" alt="CarWashFlow Stack" />
 </p>
 
 <p align="center">
@@ -90,21 +90,21 @@ Full-stack developer from Liège 🇧🇪 with a strong DevOps side. I build bac
 ## 🛠️ Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,rust,c,ts,js,nextjs,react,nuxtjs,vue,pinia,tailwind&perline=12" alt="Languages & Frameworks" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,rust,kotlin,ts,js,nuxtjs,vue,react,nextjs,pinia,tailwind&perline=12" alt="Languages & Frameworks" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,cloudflare,githubactions,bash,grafana,prometheus,postgres,rabbitmq,obsidian,git&perline=12" alt="DevOps, Data & Tools" />
 </p>
 
-- **Languages**: C#, TypeScript / JavaScript, Rust, C
+- **Languages**: C#, TypeScript / JavaScript, Kotlin, Rust, C
 - **Backend**: .NET 10, ASP.NET, Carter, MediatR, EF Core, Rebus
-- **Frontend**: Next.js, React, shadcn/ui, Nuxt, Vue, Pinia, TanStack Query, Tailwind CSS
-- **Mobile**: React Native, Expo, Zustand
+- **Frontend**: Nuxt, Vue, Nuxt UI, Pinia, Tailwind CSS, Next.js, React, shadcn/ui, TanStack Query
+- **Mobile**: React Native, Expo, Zustand, Kotlin (Android)
 - **DevOps & Infra**: Docker, Kubernetes, Ansible, Portainer, Cloudflare Tunnel, GitHub Actions, Nginx, Bash
 - **Data & Messaging**: PostgreSQL, RabbitMQ
-- **Observability**: Grafana, Loki, Prometheus, Uptime Kuma
-- **Payments**: Stripe (webhooks + saga)
-- **Method & Docs**: Clean Architecture, CQRS, DDD, BMAD, Obsidian (vault-as-code)
+- **Observability**: Grafana, Loki, Prometheus, Alloy, Uptime Kuma
+- **Payments**: Adyen (online, terminals, subscriptions), Stripe
+- **Method & Docs**: Clean Architecture, CQRS, DDD, ADRs, Obsidian (vault-as-code)
 
 ### 💻 Daily Drivers
 
@@ -138,7 +138,7 @@ Full-stack developer from Liège 🇧🇪 with a strong DevOps side. I build bac
 ## ✨ Fun Facts
 
 - 📚 My monorepo doubles as an **Obsidian vault**: every endpoint, handler, repository and entity is wikilinked and queryable via Dataview.
-- 🤖 I ship with **BMAD** + Claude Code agents in the loop. Pair-programming with an AI that reads your vault is a cheat code.
+- 🤖 I ship with a team of **Claude Code** agents in the loop, backed by a project brain of decisions and facts in the vault. Pair-programming with an AI that reads your docs is a cheat code.
 - ☕ Turning espresso into containers since 2020.
 
 ---
