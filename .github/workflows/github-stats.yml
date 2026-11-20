@@ -27,12 +27,15 @@ jobs:
 
       - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29
         with:
-          version: 0.15.2
+          version: 0.16.0
 
+      # Pinned to a known-good commit: upstream follows new Zig releases and
+      # an unpinned clone broke this job when it moved to Zig 0.16.
       - name: Build github-stats binary
         run: |
-          git clone --depth 1 https://github.com/jstrieb/github-stats.git /tmp/github-stats
+          git clone https://github.com/jstrieb/github-stats.git /tmp/github-stats
           cd /tmp/github-stats
+          git checkout ef574fae2ce8311f3e1ebb43e07c0c0fae0a41b6
           zig build --release
 
       - name: Compute exclude list (repos not pushed in the last 2 years)
