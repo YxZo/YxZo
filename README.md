@@ -23,15 +23,15 @@
 
 ## 👾 Who am I?
 
-- 🧑‍💻 **Code Alchemist** — turning caffeine into scalable infrastructure & robust backends.
-- 🚀 **DevOps Explorer** — automating all the things with Docker, Kubernetes, Ansible & GitHub Actions.
-- 🛠️ **Stack Polyglot** — fluent in C#, JavaScript, Rust & not afraid of the frontend.
-- 🌍 **Infra Magician** — building large-scale systems that just work.
-- 🇧🇪 **Liège, Belgium** — turning espresso into containers since 2020.
+Full-stack developer from Liège 🇧🇪 with a strong DevOps side. I build backends in **C# / ASP.NET**, frontends in **Vue and React**, and I like owning the whole path to production: containers, CI/CD, monitoring.
+
+- 💎 **C# & .NET** is my home turf: APIs, event-driven services, Clean Architecture.
+- 🚀 **DevOps**: Docker, Kubernetes, Ansible, GitHub Actions, self-hosted everything.
+- 🦀 **Curious by default**: Rust and C on the side, Arch Linux on the desk.
 
 ---
 
-## 🚗 Featured Project — CarWashFlow
+## 🚗 Featured Project: CarWashFlow
 
 <table>
   <tr>
@@ -57,12 +57,12 @@
 
 #### Built solo, end to end
 
-- 🏗️ **A full platform, not a side-project** — mobile app, public website, customer dashboard, partner dashboard, API and gateway, all shipping together as one cohesive product.
-- 🧱 **Built to last** — modern, layered architecture under the hood, so shipping the next feature feels like a pleasure, not a fight against legacy.
-- 🎼 **Event-driven by design** — the platform stays smooth and responsive even when the outside world (payments, partners, users) doesn't.
-- 💳 **Frictionless subscriptions** — full lifecycle handled end to end, from sign-up to renewal, upgrade and cancellation.
-- 🧪 **Tested, observed, monitored** — hundreds of automated tests and full-stack observability across every service.
-- 🚀 **Live in production** — containerized, secured behind Cloudflare, deployable in minutes.
+- 🏗️ **A full platform**: mobile app, public website, customer dashboard, partner dashboard, API and gateway, all shipping together as one product.
+- 🧱 **Layered architecture**: Clean Architecture, CQRS and DDD, so new features land without fighting legacy code.
+- 🎼 **Event-driven**: RabbitMQ between services, so payments and partner integrations never block the user.
+- 💳 **Subscriptions end to end**: Stripe webhooks and sagas covering sign-up, renewal, upgrade and cancellation.
+- 🧪 **Tested and observed**: hundreds of automated tests, Grafana, Loki and Prometheus across every service.
+- 🚀 **Live in production**: containerized, behind Cloudflare, deployable in minutes.
 
 <p>
   <img src="https://skillicons.dev/icons?i=dotnet,cs,nextjs,react,nuxtjs,vue,tailwind,postgres,rabbitmq,docker,cloudflare,grafana,githubactions&perline=13" alt="CarWashFlow Stack" />
@@ -78,6 +78,15 @@
 
 ---
 
+<!-- Uncomment once the AUR package is published (replace the link if the name differs).
+
+## 📦 Open Source
+
+- **[project-nomad (AUR)](https://aur.archlinux.org/packages/project-nomad)**: I package and maintain [Project NOMAD](https://github.com/Crosstalk-Solutions/project-nomad), the offline knowledge and AI server, for Arch Linux and its derivatives (CachyOS, Manjaro, Omarchy). Upstream only supports Debian, so `yay -S project-nomad` is the community install path.
+
+---
+-->
+
 ## 🛠️ Toolbox
 
 <p align="center">
@@ -87,35 +96,25 @@
   <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,cloudflare,githubactions,bash,grafana,prometheus,postgres,rabbitmq,obsidian,git&perline=12" alt="DevOps, Data & Tools" />
 </p>
 
-- **Languages** — C#, TypeScript / JavaScript, Rust, C
-- **Backend** — .NET 10, ASP.NET, Carter, MediatR, EF Core, Rebus
-- **Frontend** — Next.js, React, shadcn/ui, Nuxt, Vue, Pinia, TanStack Query, Tailwind CSS
-- **Mobile** — React Native, Expo, Zustand
-- **DevOps & Infra** — Docker, Kubernetes, Portainer, Cloudflare Tunnel, GitHub Actions, Nginx, Bash
-- **Data & Messaging** — PostgreSQL, RabbitMQ
-- **Observability** — Grafana, Loki, Prometheus, Uptime Kuma
-- **Payments** — Stripe (webhooks + saga)
-- **Method & Docs** — Clean Architecture, CQRS, DDD, BMAD, Obsidian (vault-as-code)
+- **Languages**: C#, TypeScript / JavaScript, Rust, C
+- **Backend**: .NET 10, ASP.NET, Carter, MediatR, EF Core, Rebus
+- **Frontend**: Next.js, React, shadcn/ui, Nuxt, Vue, Pinia, TanStack Query, Tailwind CSS
+- **Mobile**: React Native, Expo, Zustand
+- **DevOps & Infra**: Docker, Kubernetes, Ansible, Portainer, Cloudflare Tunnel, GitHub Actions, Nginx, Bash
+- **Data & Messaging**: PostgreSQL, RabbitMQ
+- **Observability**: Grafana, Loki, Prometheus, Uptime Kuma
+- **Payments**: Stripe (webhooks + saga)
+- **Method & Docs**: Clean Architecture, CQRS, DDD, BMAD, Obsidian (vault-as-code)
 
 ### 💻 Daily Drivers
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=apple,linux,windows&perline=3" alt="Operating Systems" />
+  <img src="https://skillicons.dev/icons?i=arch,apple,windows&perline=3" alt="Operating Systems" />
 </p>
 
-- 🍎 **macOS** — daily driver, where the code happens.
-- 🐧 **Linux** — where my servers live (and stay tight).
-- 🪟 **Windows** — kept around for when the toolchain demands it.
-
----
-
-## 💎 C# & ASP.NET Expert
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23%20%26%20ASP.NET-Expert-blueviolet?style=for-the-badge&logo=dotnet&logoColor=white" alt="C# ASP.NET Expert"/>
-</p>
-
-I specialize in building robust, scalable, modern web applications with **C#** and **ASP.NET** — APIs, microservices, enterprise solutions. If it ships in production, I've probably coded, containerized, and deployed it.
+- 🐧 **Arch Linux** (Omarchy + Hyprland): main workstation, and where my servers live too.
+- 🍎 **macOS**: still in the rotation.
+- 🪟 **Windows**: kept around for when the toolchain demands it.
 
 ---
 
@@ -138,11 +137,9 @@ I specialize in building robust, scalable, modern web applications with **C#** a
 
 ## ✨ Fun Facts
 
-- 🧩 I solve complex backend puzzles for breakfast and automate the boring stuff before lunch.
-- 🌐 My infra doesn't just scale — it grooves.
-- 📚 My monorepo doubles as an **Obsidian vault** — every endpoint, handler, repository and entity is wikilinked and queryable via Dataview.
-- 🤖 I ship with **BMAD** + Claude Code agents in the loop, because pair-programming with an AI that reads your vault is a cheat code.
-- 🕹️ And yes, sometimes I make the frontend dance too.
+- 📚 My monorepo doubles as an **Obsidian vault**: every endpoint, handler, repository and entity is wikilinked and queryable via Dataview.
+- 🤖 I ship with **BMAD** + Claude Code agents in the loop. Pair-programming with an AI that reads your vault is a cheat code.
+- ☕ Turning espresso into containers since 2020.
 
 ---
 
